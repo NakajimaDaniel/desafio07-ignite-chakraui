@@ -4,7 +4,7 @@ import React from "react";
 
 export function TravelTypes() {
   return (
-    <Flex justifyContent="center" pl="8" pr="8">
+    <Flex justifyContent="center" pl="8" pr="8" pb="8" mb="8">
       <Grid templateColumns="repeat(5, 1fr)" gap="8rem">
 
         <Box align="center">
