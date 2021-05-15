@@ -4,8 +4,8 @@ import React from "react";
 
 export function TravelTypes() {
   return (
-    <Flex justifyContent="center" pl="8" pr="8" pb="8" mb="8">
-      <Grid templateColumns="repeat(5, 1fr)" gap={[3,1]} w="100vw">
+    <Flex justifyContent="center" pl={['4','6', '8']} pr={['4','6', '8']} pb={['4','6', '8']} mb={['4','6', '8']}>
+      <Grid templateColumns="repeat(5, 1fr)" gap={[1,3]} w="100vw">
 
         <Box align="center">  
           <Image src="cocktail.png" boxSize={['10px','30px','50px','70px']} />
