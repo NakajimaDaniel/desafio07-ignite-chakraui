@@ -19,10 +19,10 @@ export default function Home() {
         <TravelTypes />
         <Divider />
 
-        <Text align="center" fontSize="3xl" color="gray.600" pt="8" fontWeight="600">
+        <Text align="center" fontSize={[ 'md', '1xl', '2xl', '3xl']} color="gray.600" pt="12" fontWeight="600">
           Vamos nessa?
         </Text>
-        <Text align="center"  fontSize="3xl" color="gray.600" fontWeight="600" pb="8">
+        <Text align="center"  fontSize={[ 'md', '1xl', '2xl', '3xl']} color="gray.600" fontWeight="600" pb="8">
           Então escolha seu continente
         </Text>
 
