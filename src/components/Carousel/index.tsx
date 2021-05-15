@@ -1,6 +1,6 @@
 // Import Swiper React components
 
-import { Flex, Box, Image } from "@chakra-ui/react";
+import { Flex, Box, Image, Text } from "@chakra-ui/react";
 
 
 
@@ -31,7 +31,12 @@ export function Carousel() {
         <Swiper  navigation={true}  slidesPerView={1}  centeredSlides={true} pagination={{
       "clickable": true}}>
           <SwiperSlide>
-            <Image src="europe.png" w="100%"></Image>
+            <Box position="relative" textAlign="center"> 
+              <Image src="europe.png" w="100%" ></Image>
+              <Text position="absolute" top="50%" left="50%" transform="translate(-50%,-50%)" color="white" fontSize="4xl" fontWeight="bold">Europa</Text>
+              <Text position="absolute" top="50%" left="50%" transform="translate(-50%, 80%)" color="white" fontSize="2xl" fontWeight="bold">O continente mais antigo.</Text>
+            </Box>
+            
           </SwiperSlide>
           <SwiperSlide>
             <Image src="europe.png" w="100%"></Image>
