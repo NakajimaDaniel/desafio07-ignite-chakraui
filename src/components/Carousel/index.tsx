@@ -27,7 +27,7 @@ SwiperCore.use([Pagination,Navigation]);
 
 export function Carousel() {
   return (
-    <Flex justify="center" m="20" >
+    <Flex justify="center" mt={['10','15', '15']} ml={['10']} mr={['10']} mb={['20']} >
         <Swiper  navigation={true}  slidesPerView={1}  centeredSlides={true} pagination={{
       "clickable": true}}>
           <SwiperSlide>
