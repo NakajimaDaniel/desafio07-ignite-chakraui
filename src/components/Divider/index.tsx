@@ -5,7 +5,7 @@ export function Divider() {
   return (
     <Flex justify="center">
       
-      <Box w="10%" bg="gray.600" h="0.5">
+      <Box w="5%" bg="gray.600" h="0.5">
       
       </Box>
     </Flex>
