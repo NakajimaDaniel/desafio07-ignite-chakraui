@@ -1,25 +1,32 @@
 import { Flex, Image, Text } from "@chakra-ui/react";
-import React from "react";
+import React, { useRef, useState } from "react";
 import { Banner } from "../components/Banner";
+import { Carousel } from "../components/Carousel";
+
 import { Divider } from "../components/Divider";
 import { Header } from "../components/Header";
 import { TravelTypes } from "../components/TravelTypes";
+
+
+
 
 export default function Home() {
   return (
     <>
       <Header/>
-      <Flex flexDirection="column" justify="center">
+      <Flex flexDirection="column">
         <Banner />
         <TravelTypes />
         <Divider />
+
         <Text align="center" fontSize="3xl" color="gray.600" pt="8" fontWeight="600">
           Vamos nessa?
-          
         </Text>
-        <Text align="center"  fontSize="3xl" color="gray.600" fontWeight="600">
+        <Text align="center"  fontSize="3xl" color="gray.600" fontWeight="600" pb="8">
           Então escolha seu continente
         </Text>
+
+        <Carousel />
 
       </Flex>
     </>
