@@ -32,7 +32,7 @@ export function Carousel() {
       "clickable": true}}>
           <SwiperSlide>
             <Link href="/europe">
-              <Box position="relative" textAlign="center"> 
+              <Box position="relative" textAlign="center" cursor="pointer"> 
               
                 <Image src="europe.png" w="100%" />
                 <Text position="absolute" top="50%" left="50%" transform="translate(-50%,-50%)" color="white" fontSize={['1xl','2xl', '3xl','6xl']}  fontWeight="bold">Europa</Text>
