@@ -14,9 +14,9 @@ export default function Europe() {
           <Text position="absolute" top="70%" left="0%" transform="translate(70%,0)" color="white" fontSize={['1xl','2xl', '3xl','6xl']}  fontWeight="semibold">Europa</Text>
         </Box>
 
-        <Flex flexDirection="row"  m="10" pl="10">
+        <Flex flexDirection="row" justify="center" pt="10" pb="10">
 
-          <Text w="50%" fontSize="20" pr="20" textAlign="justify" >
+          <Text w="30%" fontSize="20" pr="20" textAlign="justify" >
             A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, 
             a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
           </Text>
@@ -36,9 +36,30 @@ export default function Europe() {
               <Text textAlign="center" fontSize="50" color="yellow.400" fontWeight="bold">27</Text>
               <Text textAlign="center" fontSize="25" color="gray.450" fontWeight="bold">cidades +100</Text>
             </Box>
-
           </Flex>
+
         </Flex>
+
+        <Box>
+            <Text textAlign="center" fontSize="25" fontWeight="semibold" pb="5">Cidades +100</Text>
+            <Flex justify="center" flexDir="row" pb="10">
+              <Flex justify="center" flexDirection="column">
+                <Box>
+                  <Image src="london.png"/>
+                  <Flex justify="center" flexDirection="row" p="3" borderBottom="1px" borderRight="1px" borderLeft="1px"  borderColor="yellow.400">
+                    <Box pr="20">
+                      <Text fontWeight="semibold" fontSize="20" pb="2" >Londres</Text>
+                      <Text color="gray.500">Reino Unido</Text>
+                    </Box>
+                    <Flex justify="center" alignItems="center">
+                      <Image src="ukflag.png" boxSize="7" borderRadius="full" align="center"/>
+                    </Flex>
+                  </Flex>
+
+                </Box>
+              </Flex>
+            </Flex>
+          </Box>
 
       </Flex>
     </>
