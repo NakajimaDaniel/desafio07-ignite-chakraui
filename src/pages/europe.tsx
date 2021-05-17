@@ -16,12 +16,12 @@ export default function Europe() {
 
         <Flex flexDirection="row" justify="center" pt="10" pb="10" pl="5" pr="5" alignSelf="center" maxW={1400}>
 
-          <Text  fontSize="20" pr="20" textAlign="justify" >
+          <Text w="50%" fontSize="20" pr="20" textAlign="justify" >
             A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, 
             a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
           </Text>
 
-          <Flex justify="center" flexDirection="row" >
+          <Flex  w="50%"  justify="center" flexDirection="row" >
             <Box alignItems="center" pr="20">
               <Text textAlign="center" fontSize="50" color="yellow.400" fontWeight="bold">50</Text>
               <Text textAlign="center" fontSize="25" color="gray.450" fontWeight="bold">países</Text>
