@@ -40,10 +40,10 @@ export default function Europe() {
 
         </Flex>
    
-        <Box pb="10">
-            <Text textAlign="center" fontSize="25" fontWeight="semibold" pb="5">Cidades +100</Text>
-            <Grid templateColumns={["repeat(2, 1fr)","repeat(3, 1fr)","repeat(4, 1fr)"]} gap={[5,4,3,2,1]} justifyItems="center" pl="10" pr="10">
-              <Flex justify="center" flexDirection="column" pb="10">
+        <Flex pb="10" pl="5" pr="5" justifyContent="center" flexDir="column"  w="100%" maxW={1400} alignSelf="center" >
+            <Text textAlign="left" fontSize="25" fontWeight="semibold" pb="5" >Cidades +100</Text>
+            <Grid templateColumns={["repeat(2, 1fr)","repeat(3, 1fr)","repeat(4, 1fr)"]} gap={[5,4,3,2,1]} justifyItems="center"  w="100%">
+              <Flex justify="center" flexDirection="column" pb="10" w="100%">
                 <Box w="256px">
                   <Image src="london.png"/>
                   <Flex justify="center" flexDirection="row" p="3" borderBottom="1px" borderRight="1px" borderLeft="1px"  borderColor="yellow.400">
@@ -58,7 +58,7 @@ export default function Europe() {
                 </Box>
               </Flex>
 
-              <Flex justify="center" flexDirection="column" pb="10">
+              <Flex justify="center" flexDirection="column" pb="10" w="100%">
                 <Box w="256px">
                   <Image src="london.png"/>
                   <Flex justify="center" flexDirection="row" p="3" borderBottom="1px" borderRight="1px" borderLeft="1px"  borderColor="yellow.400">
@@ -73,8 +73,7 @@ export default function Europe() {
                 </Box>
               </Flex>
 
-
-              <Flex justify="center" flexDirection="column"  pb="10">
+              <Flex justify="center" flexDirection="column" pb="10" w="100%">
                 <Box w="256px">
                   <Image src="london.png"/>
                   <Flex justify="center" flexDirection="row" p="3" borderBottom="1px" borderRight="1px" borderLeft="1px"  borderColor="yellow.400">
@@ -88,41 +87,39 @@ export default function Europe() {
                   </Flex>
                 </Box>
               </Flex>
-
-              <Flex justify="center" flexDirection="column"  pb="10">
-                <Box w="256px">
-                  <Image src="london.png"/>
-                  <Flex justify="center" flexDirection="row" p="3" borderBottom="1px" borderRight="1px" borderLeft="1px"  borderColor="yellow.400">
-                    <Box pr="20">
-                      <Text fontWeight="semibold" fontSize="20" pb="2" >Londres</Text>
-                      <Text color="gray.500">Reino Unido</Text>
-                    </Box>
-                    <Flex justify="center" alignItems="center">
-                      <Image src="ukflag.png" boxSize="7" borderRadius="full" align="center"/>
-                    </Flex>
-                  </Flex>
-                </Box>
-              </Flex>
-
-              <Flex justify="center" flexDirection="column"  pb="10">
-                <Box w="256px">
-                  <Image src="london.png"/>
-                  <Flex justify="center" flexDirection="row" p="3" borderBottom="1px" borderRight="1px" borderLeft="1px"  borderColor="yellow.400">
-                    <Box pr="20">
-                      <Text fontWeight="semibold" fontSize="20" pb="2" >Londres</Text>
-                      <Text color="gray.500">Reino Unido</Text>
-                    </Box>
-                    <Flex justify="center" alignItems="center">
-                      <Image src="ukflag.png" boxSize="7" borderRadius="full" align="center"/>
-                    </Flex>
-                  </Flex>
-                </Box>
-              </Flex>
-
             
+              <Flex justify="center" flexDirection="column" pb="10" w="100%">
+                <Box w="256px">
+                  <Image src="london.png"/>
+                  <Flex justify="center" flexDirection="row" p="3" borderBottom="1px" borderRight="1px" borderLeft="1px"  borderColor="yellow.400">
+                    <Box pr="20">
+                      <Text fontWeight="semibold" fontSize="20" pb="2" >Londres</Text>
+                      <Text color="gray.500">Reino Unido</Text>
+                    </Box>
+                    <Flex justify="center" alignItems="center">
+                      <Image src="ukflag.png" boxSize="7" borderRadius="full" align="center"/>
+                    </Flex>
+                  </Flex>
+                </Box>
+              </Flex>
+
+              <Flex justify="center" flexDirection="column" pb="10" w="100%">
+                <Box w="256px">
+                  <Image src="london.png"/>
+                  <Flex justify="center" flexDirection="row" p="3" borderBottom="1px" borderRight="1px" borderLeft="1px"  borderColor="yellow.400">
+                    <Box pr="20">
+                      <Text fontWeight="semibold" fontSize="20" pb="2" >Londres</Text>
+                      <Text color="gray.500">Reino Unido</Text>
+                    </Box>
+                    <Flex justify="center" alignItems="center">
+                      <Image src="ukflag.png" boxSize="7" borderRadius="full" align="center"/>
+                    </Flex>
+                  </Flex>
+                </Box>
+              </Flex>
 
             </Grid>
-          </Box>
+          </Flex>
 
       </Flex>
     </>
