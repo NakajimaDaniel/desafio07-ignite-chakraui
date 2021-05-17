@@ -42,7 +42,7 @@ export default function Europe() {
    
         <Flex pb="10" pl="5" pr="5" justifyContent="center" flexDir="column"  w="100%" maxW={1400} alignSelf="center" >
             <Text textAlign="left" fontSize="25" fontWeight="semibold" pb="10" color="gray.600">Cidades +100</Text>
-            <Grid templateColumns={["repeat(1, 1fr)","repeat(2, 1fr)","repeat(2, 1fr)","repeat(2, 1fr)","repeat(3, 1fr)","repeat(3, 1fr)","repeat(4, 1fr)"]} gap={[5,4,3,2,50]} justifyItems="center" w="100%">
+            <Grid templateColumns={["repeat(2, 1fr)","repeat(2, 1fr)","repeat(2, 1fr)","repeat(3, 1fr)","repeat(3, 1fr)","repeat(4, 1fr)"]} gap={[5,4,3,2,50]} justifyItems="center" w="100%">
 
                 <Box w={["250px","256px"]}>
                 <Flex justify="center" flexDirection="column" pb="10" w="100%">
