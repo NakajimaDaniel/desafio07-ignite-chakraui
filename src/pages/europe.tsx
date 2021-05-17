@@ -14,9 +14,9 @@ export default function Europe() {
           <Text position="absolute" top="70%" left="0%" transform="translate(70%,0)" color="white" fontSize={['1xl','2xl', '3xl','6xl']}  fontWeight="semibold">Europa</Text>
         </Box>
 
-        <Flex flexDirection="row" justify="center" pt="10" pb="10">
+        <Flex flexDirection="row" justify="center" pt="10" pb="10" pl="5" pr="5" alignSelf="center" maxW={1400}>
 
-          <Text w="30%" fontSize="20" pr="20" textAlign="justify" >
+          <Text  fontSize="20" pr="20" textAlign="justify" >
             A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, 
             a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
           </Text>
