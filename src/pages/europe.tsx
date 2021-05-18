@@ -54,7 +54,7 @@ export default function Europe() {
               <Text pt="5" pb="5" pl="5" pr="5" textAlign="justify">A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, 
                 a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
               </Text>
-              <Grid templateColumns="repeat(3, 1fr)" gap={7}>
+              <Grid templateColumns="repeat(3, 1fr)" gap={7} pb="10">
               <Box alignItems="center">
                   <Text textAlign="left" fontSize="45" color="yellow.400" fontWeight="600">50</Text>
                   <Text textAlign="left" fontSize="20" color="gray.450" fontWeight="500">países</Text>
