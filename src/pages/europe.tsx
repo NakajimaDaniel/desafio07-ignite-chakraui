@@ -43,40 +43,8 @@ export default function Europe() {
               </Flex>
 
             </Flex>
-          </>
-        ): (
-          <>
-            <Flex  align="center" flexDir="column">
-              <Box position="relative" textAlign="center">
-                <Image src="europe1.png" w="100vw" maxh="500px" />
-                <Text position="absolute" top="50%" left="50%" transform="translate(-50%,-50%)" color="white" fontSize={['5xl']}  fontWeight="semibold">Europa</Text>
-              </Box>
-              <Text pt="5" pb="5" pl="5" pr="5" textAlign="justify">A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, 
-                a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
-              </Text>
-              <Grid templateColumns="repeat(3, 1fr)" gap={7} pb="10">
-              <Box alignItems="center">
-                  <Text textAlign="left" fontSize="45" color="yellow.400" fontWeight="600">50</Text>
-                  <Text textAlign="left" fontSize="20" color="gray.450" fontWeight="500">países</Text>
-                </Box>
 
-                <Box alignItems="center" >
-                  <Text textAlign="left" fontSize="45" color="yellow.400" fontWeight="600">60</Text>
-                  <Text textAlign="left" fontSize="20" color="gray.450" fontWeight="500">línguas</Text>
-                </Box>
-
-                <Box alignItems="center">
-                  <Text textAlign="left" fontSize="45" color="yellow.400" fontWeight="600">27</Text>
-                  <Text textAlign="left" fontSize="20" color="gray.450" fontWeight="500">cidades +100</Text>
-                </Box>
-              </Grid>
-
-            </Flex>
-          </>
-        )}
-
-   
-        <Flex pb="10" pl="5" pr="5" justifyContent="center" flexDir="column"  w="100%" maxW={1400} alignSelf="center" >
+            <Flex pb="10" pl="5" pr="5" justifyContent="center" flexDir="column"  w="100%" maxW={1400} alignSelf="center" >
             <Text textAlign="left" fontSize="25" fontWeight="semibold" pb="10" color="gray.600">Cidades +100</Text>
             <Grid templateColumns={["repeat(2, 1fr)","repeat(2, 1fr)","repeat(2, 1fr)","repeat(3, 1fr)","repeat(3, 1fr)","repeat(4, 1fr)"]} gap={[5,4,3,2,50]} justifyItems="center" w="100%">
 
@@ -140,12 +108,43 @@ export default function Europe() {
                 </Flex>
                 </Box>
               
-
-             
             </Grid>
           </Flex>
+      
+          </>
+        ): (
+          <>
+            <Flex  align="center" flexDir="column">
+              <Box position="relative" textAlign="center">
+                <Image src="europe1.png" w="100vw" maxh="500px" />
+                <Text position="absolute" top="50%" left="50%" transform="translate(-50%,-50%)" color="white" fontSize={['5xl']}  fontWeight="semibold">Europa</Text>
+              </Box>
+              <Text pt="5" pb="5" pl="5" pr="5" textAlign="justify">A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, 
+                a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
+              </Text>
+              <Grid templateColumns="repeat(3, 1fr)" gap={7} pb="10">
+              <Box alignItems="center">
+                  <Text textAlign="left" fontSize="45" color="yellow.400" fontWeight="600">50</Text>
+                  <Text textAlign="left" fontSize="20" color="gray.450" fontWeight="500">países</Text>
+                </Box>
+
+                <Box alignItems="center" >
+                  <Text textAlign="left" fontSize="45" color="yellow.400" fontWeight="600">60</Text>
+                  <Text textAlign="left" fontSize="20" color="gray.450" fontWeight="500">línguas</Text>
+                </Box>
+
+                <Box alignItems="center">
+                  <Text textAlign="left" fontSize="45" color="yellow.400" fontWeight="600">27</Text>
+                  <Text textAlign="left" fontSize="20" color="gray.450" fontWeight="500">cidades +100</Text>
+                </Box>
+              </Grid>
+
+            </Flex>
+          </>
+        )}
 
       </Flex>
+        
     </>
   )
 }
