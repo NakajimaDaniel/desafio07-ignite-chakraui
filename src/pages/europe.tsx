@@ -10,9 +10,11 @@ export default function Europe() {
   return (
     <>
       <Header />
-      <Flex justify="center" flexDirection="column">
+      
         {isLargerThan700 ? (
           <>
+            
+            <Flex   flexDir="column">
             <Box position="relative" textAlign="center">
               <Image src="europe1.png" w="100vw" maxh="500px" />
               <Text position="absolute" top="70%" left="0%" transform="translate(70%,0)" color="white" fontSize={['1xl','2xl', '3xl','6xl']}  fontWeight="semibold">Europa</Text>
@@ -110,7 +112,7 @@ export default function Europe() {
               
             </Grid>
           </Flex>
-      
+            </Flex>
           </>
         ): (
           <>
@@ -143,8 +145,10 @@ export default function Europe() {
           </>
         )}
 
-      </Flex>
+      
         
     </>
   )
 }
+
+
