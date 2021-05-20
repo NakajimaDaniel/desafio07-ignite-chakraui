@@ -44,7 +44,7 @@ export function TravelTypes() {
       ): (
         <>
           <Flex flexDir="column" align="center" pb="10">
-            <Grid templateColumns="repeat(2, 1fr)" align="center" pb="5" gap="5">
+            <Grid templateColumns="repeat(2, 1fr)" align="center" pb="10" gap="10">
               <li>vida noturna</li>
               <li>moderno</li>
               <li>praia</li>
