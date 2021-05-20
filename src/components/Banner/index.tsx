@@ -3,7 +3,7 @@ import  { Image, Container, Flex, Box, Text } from '@chakra-ui/react'
 
 export function Banner() {
   return (
-    <Flex w="100%" mb="8">
+    <Flex w="100%" mb="8" pb="10">
       <Box position="relative">
         <Image src="bannerback.png" w="100vw"/>
         <Text position="absolute" top="20%"  left="10%" color="white" fontSize={["20","20","20","40"]}>5 Continentes,</Text>
