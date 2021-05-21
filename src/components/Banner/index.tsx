@@ -7,7 +7,15 @@ export function Banner() {
 
  
   return (
-    <Flex w="100%" mb="8" pb="10">
+    <Flex 
+      w="100%" 
+      mb="8" 
+      pb="10"
+      sx={{"@media screen and (max-width: 400px)": {
+        pb:"2",
+        mb: '2'
+      }}}
+    >
       <Box position="relative" sx={{
         "@media screen and (max-width: 375px)": {
             height: "100%",
@@ -21,7 +29,7 @@ export function Banner() {
               height: '250'
             },
               "@media screen and (max-width: 400px)": {
-                height: '40vh'
+                height: '35vh'
               }
             }}
           />
@@ -75,7 +83,7 @@ export function Banner() {
               top: "50%"
             },
             "@media screen and (max-width: 330px)": {
-              top: "60%",
+              top: "65%",
               fontSize: '13'
             }
           }
