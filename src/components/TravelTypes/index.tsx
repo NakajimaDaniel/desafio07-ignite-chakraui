@@ -1,16 +1,16 @@
-import { Box, Flex, Grid, Image, Text, useMediaQuery, Wrap, ListItem } from "@chakra-ui/react";
+import { Box, Flex, Grid, Image, Text } from "@chakra-ui/react";
 import React from "react";
 
 
 export function TravelTypes() {
 
 
-  const [isLargerThan700] = useMediaQuery("(min-width: 700px)")
+
 
   return (
     <>
 
-      {isLargerThan700? (
+     
           <Flex justifyContent="center" pl={['4','6', '8']} pr={['4','6', '8']} pb={['4','6', '8']} mb={['4','6', '8']}>
             <Grid templateColumns="repeat(5, 1fr)" gap={[1,3]} w="100vw">
 
@@ -41,20 +41,7 @@ export function TravelTypes() {
                 
             </Grid>
           </Flex>
-      ): (
-        <>
-          <Flex flexDir="column" align="center" pb="10">
-            <Grid templateColumns="repeat(2, 1fr)" align="center" pb="10" gap="10">
-              <li>vida noturna</li>
-              <li>moderno</li>
-              <li>praia</li>
-              <li>clássico</li>
-            </Grid>
-            <li>e mais ...</li>
-          </Flex>
 
-        </>
-      )}
 
     </>
 
