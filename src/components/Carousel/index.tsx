@@ -51,7 +51,13 @@ export function Carousel() {
             <Link href="/europe">
               <Box position="relative" textAlign="center" cursor="pointer"> 
               
-                <Image src="europe.png" w="100%" />
+                <Image
+                  src="europe.png"
+                  w="100%" 
+                  sx={{"@media screen and (max-width: 700px)": {
+                    h: "40vh"
+                  }}}
+                />
                 <Text
                   position="absolute"
                   top="50%"
