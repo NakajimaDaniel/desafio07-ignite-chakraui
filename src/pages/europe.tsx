@@ -14,15 +14,55 @@ export default function Europe() {
         
           <>
             
-            <Flex  flexDir="column">
-            <Box position="relative" textAlign="center">
-              <Image src="europe1.png" w="100vw" maxh="500px" />
-              <Text position="absolute" top="70%" left="0%" transform="translate(70%,0)" color="white" fontSize={['1xl','2xl', '3xl','6xl']}  fontWeight="semibold">Europa</Text>
+           <Flex
+              flexDir="column"
+            >
+            <Box
+              position="relative"
+              textAlign="center"
+            >
+              <Image
+                src="europe1.png"
+                w="100vw"
+                maxh="500px" 
+              />
+             <Text
+                position="absolute"
+                top="70%"
+                left="0%"
+                transform="translate(70%,0)"
+                color="white"
+                fontSize={['1xl','2xl',
+                '3xl','6xl']}
+                fontWeight="semibold"
+                sx={{"@media screen and (max-width: 750px)": {
+                  top:"50%",
+                  left:"50%",
+                  transform: "translate(-50%, -50%)",
+                  fontSize: '5xl',
+                }}}
+              >
+                Europa
+              </Text>
             </Box>
 
-            <Flex flexDirection="row" justify="center" pt="10" pb="10" pl="5" pr="5" alignSelf="center" maxW={1400}>
+            <Flex
+              flexDirection="row"
+              justify="center"
+              pt="10"
+              pb="10"
+              pl="5"
+              pr="5"
+              alignSelf="center"
+              maxW={1400}
+            >
 
-              <Text w="45%" fontSize="20" pr="5%" textAlign="justify" >
+              <Text
+                w="45%"
+                fontSize="20"
+                pr="5%"
+                textAlign="justify"
+              >
                 A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, 
                 a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
               </Text>
