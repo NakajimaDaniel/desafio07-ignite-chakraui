@@ -1,4 +1,4 @@
-# desafio07-ignite-chakraui
+# World Trip
 
 Desafio complementar do capítulo IV - Rocketseat Ignite
 
@@ -8,6 +8,20 @@ WorldTrip
 Desenvolvimento de uma interface usando ChakraUI.
  
  - Telas responsivas com ChakraUI.
+
+# Technologies
+
+ - React
+ - TypeScript
+ - ChakraUI
+
+# How to run
+
+```bash
+ $ git clone
+ $ yarn
+ $ yarn dev
+````
 
 # Todo
 
