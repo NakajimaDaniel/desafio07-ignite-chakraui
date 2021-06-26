@@ -14,6 +14,7 @@ Desenvolvimento de uma interface usando ChakraUI.
  - React
  - TypeScript
  - ChakraUI
+ - NextJs
 
 # How to run
 
